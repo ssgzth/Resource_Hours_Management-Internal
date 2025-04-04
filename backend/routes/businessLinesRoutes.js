@@ -1,6 +1,6 @@
 import express from "express";
 import BusinessLine from "../Models/BusinessLine.js";
-import Employee from "../Models/employee.js";
+import Employee from "../Models/Employee.js";
 
 const businessRouter = express.Router();
 
