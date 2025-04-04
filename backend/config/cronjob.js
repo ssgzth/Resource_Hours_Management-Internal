@@ -1,5 +1,5 @@
 import cron from "node-cron";
-import Employee from "../Models/employee.js";
+import Employee from "../Models/Employee.js";
 
 // Calculate the next forecasted week based on the latest entry
 const getNextForecastDate = (forecastHours) => {
