@@ -1,5 +1,5 @@
 import cron from "node-cron";
-import Employee from "../Models/employee.js";
+import Employee from "../Models/Employee.js";
 
 // This cron job runs every Sunday at midnight (00:00)
 cron.schedule("0 0 * * 0", async () => {
