@@ -44,7 +44,7 @@ import dotenv from "dotenv";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import businessRouter from "./routes/businessLinesRoutes.js";
-import employeeRoutes from "./routes/EmployeeRoutes.js";
+import employeeRoutes from "./routes/employeeRoutes.js";
 import projectRoutes from "./routes/projectRoutes.js";
 import workHoursRoutes from "./routes/workHoursRoutes.js";
 import "./config/scheduler.js";
