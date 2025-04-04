@@ -56,10 +56,10 @@ router.post("/", async (req, res) => {
 // Update a project
 router.put("/:id", async (req, res) => {
   try {
-    const { name, businessLineId } = req.body;
+    const { name, businessLineId, isActive } = req.body;
     const updatedProject = await Project.findByIdAndUpdate(
       req.params.id,
-      { name, businessLine: businessLineId },
+      { name, businessLine: businessLineId,isActive:isActive },
       { new: true }
     );
 
